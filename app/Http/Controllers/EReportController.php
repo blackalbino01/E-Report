@@ -48,7 +48,7 @@ class EReportController extends Controller
         $status= EReport::where([
             'full_name' => $request->full_name,
             'email' => $request->email,
-            'phone_number' => $request->report,
+            'phone_number' => $request->phone_number,
             'state_code' => $request->state_code,
             'subject' => $request->subject,
             'report' => $request->report
